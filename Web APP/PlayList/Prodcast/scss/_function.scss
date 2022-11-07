@@ -1,0 +1,16 @@
+@import '../../scss/functions';
+
+
+//mixins
+
+@mixin MakeBtnSpecial() {
+ height: 50px;
+ width: 250px;
+ background-color: white;
+ border-radius: 25px;
+ border: none;
+ transition: transform .35s linear;
+ &:hover{
+  transform: scale(1.05);
+ }
+}

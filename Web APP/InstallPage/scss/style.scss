@@ -1,0 +1,355 @@
+@import './variables';
+@import './functions';
+
+//code section
+html{
+ ::-webkit-scrollbar {
+  width: 14px;
+  background: #242424;
+  transition: .35s linear;
+ }
+ ::-webkit-scrollbar-thumb{
+  background:#a7a7a7;
+ }
+ ::-webkit-scrollbar-thumb:hover{
+  background: #727272;
+ }
+ @media screen and (max-width:600px) {
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
+ }
+}
+
+body{
+width: 100%;
+ @include sizing();
+ background-color: black;
+ button{
+  cursor: pointer;
+ }
+ .MainSection{
+  #ulForMobileScreen{
+    display: none;
+  }
+  @media screen and (max-width:600px){
+    width: 100%;
+    #ulForMobileScreen{ 
+        min-width:100%; 
+        display: block;
+        background-image: linear-gradient(360deg , black , transparent);
+        position: fixed;
+        bottom: -10px;
+        left: -40px;
+        @include center();
+        flex-direction: row;
+        li{
+          list-style: none;
+          margin-inline:10px;
+         a{
+          margin-inline: 15px;
+          text-decoration: none;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          .Svg-sc-active{
+            display: none;
+          }
+          .Svg-sc,.Svg-sc-active{
+            margin-left: 15%;
+            fill: white;
+          }
+          span{
+            color: white;
+            font-family: $FontStyle;
+            font-size: 15px;
+            margin-block: 15px;
+            text-align: center;
+          }
+          &:focus{
+            opacity: 1;
+            .Svg-sc{
+              display: none;
+            }
+            .Svg-sc-active{
+             display: block;
+            }
+           }
+         }
+        }
+       }
+  }
+  .forMobile{ 
+   display: flex;
+   @media only screen and (max-width:600px) {
+    .navbar{
+     margin-left: -2000px; 
+    }
+   }
+   .navbar{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    padding: 30px 20px;
+    min-width: 15vw;
+    min-height: 100%;
+    float: left;
+    border-right: white;
+    .spotify-logo{    
+      height: 40px;
+      width: auto;
+      fill: white;
+      margin-bottom: 30px;
+    }
+    ul{
+      margin-left: -40px;
+     li{
+      list-style: none;
+      margin-block: 15px;
+      a{
+       font-family: $FontStyle;
+       font-weight: 700;
+       display: flex;
+       align-items: center;
+       text-decoration: none;
+       color: white;
+       opacity: 0.7;
+       transition: .35s;
+       Svg{
+          fill: white
+       }
+       .Svg-sc-active{
+        display: none;
+       }
+       span{
+        margin-left: 15px;
+       }
+       &:hover{
+       opacity: 1;
+       }
+       &:focus{
+        opacity: 1;
+        .Svg-sc{
+          display: none;
+        }
+        .Svg-sc-active{
+         display: block;
+        }
+       }
+      }
+     }
+    }
+   }
+   .Ply{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: .35s;
+    .add{   
+     @include center();
+      svg{
+      fill: #242424;
+      opacity: 1;
+      }
+      height: 30px;
+      width: 30px;
+      background-color: hsla(0, 0%, 100%, 0.75) ;
+      border-radius: 2.5px;
+    }
+    span{
+     @include StyleSpanNav();
+    }
+    &:hover,&:focus{
+     opacity: 1;
+     .add{  
+      background-color: white;
+     }
+    }
+   }
+   .Liked-titles{
+    @extend .Ply;
+    margin-top: 15px;
+     .like{
+      background-image: linear-gradient(45deg , #3d91f4, white 20% ,#0d72ea);
+       svg{
+        fill: white;
+       }
+       &:hover,&:focus{
+        opacity: 1;
+        .add{  
+         background-color: white;
+        }
+       }
+     }
+   }
+   .install{
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    opacity: 0.7; 
+    transition: opacity .35s linear;
+    svg,span{
+      cursor: pointer;
+    }
+    svg{
+     fill: white;
+    }
+    span{
+     @include StyleSpanNav();
+    }
+    &:hover,&:focus{
+      opacity: 1;
+    }
+   }
+  }
+  .UserPage{
+    width: 80vw;
+    @media screen and (max-width:600px) {
+      width: 100vw;
+    }
+    float: right;
+    background-image: linear-gradient(180deg , #3d92f42c 1px , #242424 );
+    min-width:81vw;
+    .headCenter{
+      width: 80vw;
+      padding: 10px 15px;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      position: fixed;
+      height: 60px;
+      background-color:transparent;
+      z-index: 10;
+      @media screen and (max-width: 600px){
+        width: 100vw !important;
+        ul{
+          display: none !important;
+        }
+      }
+      ul{
+        @media screen and (max-width:820px) {
+          display: none;
+        }
+        margin-inline: 30px;
+        display: flex;
+        align-items: center;
+        button{
+          @include MakeBtn();
+          margin-inline: 10px;
+        }
+        #SubBtn{         
+          font-family: $FontStyle;
+          color: white;
+          font-size: 15px;
+          font-weight: 700;
+          transition: transform 0.35s linear;
+          &:hover{
+            background-color: black;
+            transform: scale(1.1);
+          }
+        }
+        #UserAccount{  
+           display: flex; 
+           align-items: center; 
+           padding: 5px 0px;  
+           width: 140px;
+           background-color: black;
+           border: none;
+           transition: .35s linear;
+           &:hover{
+            background-color: #727272
+           }
+          .userIcon{
+            @include center();
+            height: 28px;
+            width: 40px;
+            background-color:  #727272;
+            border-radius: 50%; 
+            margin-left: 1px;
+            svg{
+              fill: white;
+            }
+          }
+         .Data{
+          
+            padding: 5px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            #UserName{
+              font-size: 15px;
+              font-weight: 700;
+              color: white;
+            }
+            Svg{
+              fill: white;
+            }
+          }
+        }
+      }
+      .btn{
+        @media screen and (max-width:820px) {
+          display: none;
+        }
+        margin-left: 10px;
+        button{
+          margin-inline: 5px;
+          @include StyleArrowBtn();
+          .Svg-sc{
+            fill: white;
+            @include center();
+          }
+        }
+      }
+    }
+    .InstallAPP{
+      @media screen and (max-width:600px){
+        height: 100%;
+      }
+      min-height: 100vh;
+      text-align: center;
+      margin-top: 100px;
+      img{
+        @media screen and (max-width:768px){
+          width: 90%;
+          height: auto;
+        }
+        height: 400px;
+        width: auto;
+      }
+      h1{
+        @media screen and (max-width:600px){
+          font-size: 22px;
+          line-height: 1.5em;
+        }
+        font-size: 30px;
+        color: white;
+        font-family: $FontStyle;
+      }
+      button{
+        @media screen and (max-width:600px){
+         margin-top: 10%;
+        }
+        @include MakeDownloadBtn();
+        transition:transform .35s linear;
+        a{
+          text-decoration: none;
+          color:#242424;
+          font-size: 15px;
+          font-weight: 700;
+        }
+        &:hover{
+          transform: scale(1.05);
+          a{
+            text-decoration: underline white;
+          }
+        }
+      }
+    }
+   }
+  }
+ }

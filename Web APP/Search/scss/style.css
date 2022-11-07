@@ -1,0 +1,1066 @@
+/*
+  icons : 
+  Spotify Icon : <svg viewBox="0 0 1134 340" class="spotify-logo--text"><title>Spotify</title><path fill="currentColor" d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"></path></svg>
+   //
+  1-home : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl home-icon" viewBox="0 0 24 24"><path d="M12.5 3.247a1 1 0 00-1 0L4 7.577V20h4.5v-6a1 1 0 011-1h5a1 1 0 011 1v6H20V7.577l-7.5-4.33zm-2-1.732a3 3 0 013 0l7.5 4.33a2 2 0 011 1.732V21a1 1 0 01-1 1h-6.5a1 1 0 01-1-1v-6h-3v6a1 1 0 01-1 1H3a1 1 0 01-1-1V7.577a2 2 0 011-1.732l7.5-4.33z"></path></svg>
+  2-search: <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl search-icon" viewBox="0 0 24 24"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+  3-biobl : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl collection-active-icon" viewBox="0 0 24 24"><path d="M3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zM15.5 2.134A1 1 0 0014 3v18a1 1 0 001 1h6a1 1 0 001-1V6.464a1 1 0 00-.5-.866l-6-3.464zM9 2a1 1 0 00-1 1v18a1 1 0 102 0V3a1 1 0 00-1-1z"></path></svg>
+   //
+  userSvgAccount : 
+  arrowUp : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 10L8 4l-6 6h12z"></path></svg>
+  arrowdown : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 6l-6 6-6-6h12z"></path></svg> 
+
+   arrowleff : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M15.957 2.793a1 1 0 010 1.414L8.164 12l7.793 7.793a1 1 0 11-1.414 1.414L5.336 12l9.207-9.207a1 1 0 011.414 0z"></path></svg>
+   arrowright:<svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z"></path></svg>
+    */
+:root {
+  --background-base: #121212;
+  --background-highlight: #1a1a1a;
+  --background-press: #000;
+  --background-elevated-base: #242424;
+  --background-elevated-highlight: #2a2a2a;
+  --background-elevated-press: #000;
+  --background-tinted-base: hsla(0,0%,100%,.07);
+  --background-tinted-highlight: hsla(0,0%,100%,.1);
+  --background-tinted-press: hsla(0,0%,100%,.04);
+  --background-unsafe-for-small-text-base: #121212;
+  --background-unsafe-for-small-text-highlight: #121212;
+  --background-unsafe-for-small-text-press: #121212;
+  --text-base: #fff;
+  --text-subdued: #a7a7a7;
+  --text-bright-accent: #1ed760;
+  --text-negative: #f15e6c;
+  --text-warning: #ffa42b;
+  --text-positive: #1ed760;
+  --text-announcement: #3d91f4;
+  --essential-base: #fff;
+  --essential-subdued: #727272;
+  --essential-bright-accent: #1ed760;
+  --essential-negative: #e91429;
+  --essential-warning: #ffa42b;
+  --essential-positive: #1ed760;
+  --essential-announcement: #0d72ea;
+  --decorative-base: #fff;
+  --decorative-subdued: #292929;
+}
+
+/*
+  icons : 
+  Spotify Icon : <svg viewBox="0 0 1134 340" class="spotify-logo--text"><title>Spotify</title><path fill="currentColor" d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"></path></svg>
+   //
+  1-home : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl home-icon" viewBox="0 0 24 24"><path d="M12.5 3.247a1 1 0 00-1 0L4 7.577V20h4.5v-6a1 1 0 011-1h5a1 1 0 011 1v6H20V7.577l-7.5-4.33zm-2-1.732a3 3 0 013 0l7.5 4.33a2 2 0 011 1.732V21a1 1 0 01-1 1h-6.5a1 1 0 01-1-1v-6h-3v6a1 1 0 01-1 1H3a1 1 0 01-1-1V7.577a2 2 0 011-1.732l7.5-4.33z"></path></svg>
+  2-search: <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl search-icon" viewBox="0 0 24 24"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+  3-biobl : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl collection-active-icon" viewBox="0 0 24 24"><path d="M3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zM15.5 2.134A1 1 0 0014 3v18a1 1 0 001 1h6a1 1 0 001-1V6.464a1 1 0 00-.5-.866l-6-3.464zM9 2a1 1 0 00-1 1v18a1 1 0 102 0V3a1 1 0 00-1-1z"></path></svg>
+   //
+  userSvgAccount : 
+  arrowUp : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 10L8 4l-6 6h12z"></path></svg>
+  arrowdown : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 6l-6 6-6-6h12z"></path></svg> 
+
+   arrowleff : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M15.957 2.793a1 1 0 010 1.414L8.164 12l7.793 7.793a1 1 0 11-1.414 1.414L5.336 12l9.207-9.207a1 1 0 011.414 0z"></path></svg>
+   arrowright:<svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z"></path></svg>
+    */
+:root {
+  --background-base: #121212;
+  --background-highlight: #1a1a1a;
+  --background-press: #000;
+  --background-elevated-base: #242424;
+  --background-elevated-highlight: #2a2a2a;
+  --background-elevated-press: #000;
+  --background-tinted-base: hsla(0,0%,100%,.07);
+  --background-tinted-highlight: hsla(0,0%,100%,.1);
+  --background-tinted-press: hsla(0,0%,100%,.04);
+  --background-unsafe-for-small-text-base: #121212;
+  --background-unsafe-for-small-text-highlight: #121212;
+  --background-unsafe-for-small-text-press: #121212;
+  --text-base: #fff;
+  --text-subdued: #a7a7a7;
+  --text-bright-accent: #1ed760;
+  --text-negative: #f15e6c;
+  --text-warning: #ffa42b;
+  --text-positive: #1ed760;
+  --text-announcement: #3d91f4;
+  --essential-base: #fff;
+  --essential-subdued: #727272;
+  --essential-bright-accent: #1ed760;
+  --essential-negative: #e91429;
+  --essential-warning: #ffa42b;
+  --essential-positive: #1ed760;
+  --essential-announcement: #0d72ea;
+  --decorative-base: #fff;
+  --decorative-subdued: #292929;
+}
+
+html ::-webkit-scrollbar {
+  width: 14px;
+  background: #242424;
+  -webkit-transition: 0.35s linear;
+  transition: 0.35s linear;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #a7a7a7;
+}
+html ::-webkit-scrollbar-thumb:hover {
+  background: #727272;
+}
+@media screen and (max-width: 600px) {
+  html ::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  background-color: black;
+}
+body .hide {
+  display: none;
+}
+body button {
+  cursor: pointer;
+}
+body .MainSection #ulForMobileScreen {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection {
+    width: 100%;
+    height: 100%;
+  }
+  body .MainSection #ulForMobileScreen {
+    min-width: 100%;
+    max-height: 40px;
+    display: block;
+    background-image: linear-gradient(360deg, black, transparent);
+    position: fixed;
+    bottom: -15px;
+    left: -40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .MainSection #ulForMobileScreen li {
+    list-style: none;
+    margin-inline: 10px;
+  }
+  body .MainSection #ulForMobileScreen li a {
+    margin-inline: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  body .MainSection #ulForMobileScreen li a .Svg-sc-active {
+    display: none;
+  }
+  body .MainSection #ulForMobileScreen li a .Svg-sc, body .MainSection #ulForMobileScreen li a .Svg-sc-active {
+    margin-left: 15%;
+    fill: white;
+  }
+  body .MainSection #ulForMobileScreen li a span {
+    color: white;
+    font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+    font-size: 15px;
+    margin-block: 15px;
+    text-align: center;
+  }
+  body .MainSection #ulForMobileScreen li a:focus {
+    opacity: 1;
+  }
+  body .MainSection #ulForMobileScreen li a:focus .Svg-sc {
+    display: none;
+  }
+  body .MainSection #ulForMobileScreen li a:focus .Svg-sc-active {
+    display: block;
+  }
+}
+body .MainSection .forMobile {
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  body .MainSection .forMobile .navbar {
+    margin-left: -2000px;
+  }
+}
+body .MainSection .forMobile .navbar {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  padding: 30px 20px;
+  min-width: 15vw;
+  min-height: 100%;
+  float: left;
+  border-right: white;
+}
+body .MainSection .forMobile .navbar .spotify-logo {
+  height: 40px;
+  width: auto;
+  fill: white;
+  margin-bottom: 30px;
+}
+body .MainSection .forMobile .navbar ul {
+  margin-left: -40px;
+}
+body .MainSection .forMobile .navbar ul li {
+  list-style: none;
+  margin-block: 15px;
+}
+body .MainSection .forMobile .navbar ul li a {
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+  transition: 0.35s;
+}
+body .MainSection .forMobile .navbar ul li a Svg {
+  fill: white;
+}
+body .MainSection .forMobile .navbar ul li a .Svg-sc-active {
+  display: none;
+}
+body .MainSection .forMobile .navbar ul li a span {
+  margin-left: 15px;
+}
+body .MainSection .forMobile .navbar ul li a:hover {
+  opacity: 1;
+}
+body .MainSection .forMobile .navbar ul li a:focus {
+  opacity: 1;
+}
+body .MainSection .forMobile .navbar ul li a:focus .Svg-sc {
+  display: none;
+}
+body .MainSection .forMobile .navbar ul li a:focus .Svg-sc-active {
+  display: block;
+}
+body .MainSection .forMobile .Ply, body .MainSection .forMobile .Liked-titles {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.35s;
+}
+body .MainSection .forMobile .Ply .add, body .MainSection .forMobile .Liked-titles .add {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: hsla(0deg, 0%, 100%, 0.75);
+  border-radius: 2.5px;
+}
+body .MainSection .forMobile .Ply .add svg, body .MainSection .forMobile .Liked-titles .add svg {
+  fill: #242424;
+  opacity: 1;
+}
+body .MainSection .forMobile .Ply span, body .MainSection .forMobile .Liked-titles span {
+  margin-left: 15px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+body .MainSection .forMobile .Ply:hover, body .MainSection .forMobile .Liked-titles:hover, body .MainSection .forMobile .Ply:focus, body .MainSection .forMobile .Liked-titles:focus {
+  opacity: 1;
+}
+body .MainSection .forMobile .Ply:hover .add, body .MainSection .forMobile .Liked-titles:hover .add, body .MainSection .forMobile .Ply:focus .add, body .MainSection .forMobile .Liked-titles:focus .add {
+  background-color: white;
+}
+body .MainSection .forMobile .Liked-titles {
+  margin-top: 15px;
+}
+body .MainSection .forMobile .Liked-titles .like {
+  background-image: linear-gradient(45deg, #3d91f4, white 20%, #0d72ea);
+}
+body .MainSection .forMobile .Liked-titles .like svg {
+  fill: white;
+}
+body .MainSection .forMobile .Liked-titles .like:hover, body .MainSection .forMobile .Liked-titles .like:focus {
+  opacity: 1;
+}
+body .MainSection .forMobile .Liked-titles .like:hover .add, body .MainSection .forMobile .Liked-titles .like:focus .add {
+  background-color: white;
+}
+body .MainSection .forMobile .install {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  transition: opacity 0.35s linear;
+}
+body .MainSection .forMobile .install svg, body .MainSection .forMobile .install span {
+  cursor: pointer;
+}
+body .MainSection .forMobile .install svg {
+  fill: white;
+}
+body .MainSection .forMobile .install span {
+  margin-left: 15px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+body .MainSection .forMobile .install:hover, body .MainSection .forMobile .install:focus {
+  opacity: 1;
+}
+body .MainSection .SearchUserPage {
+  width: 80vw;
+  float: right;
+  background-image: linear-gradient(180deg, rgba(61, 146, 244, 0.1725490196) 1px, #242424);
+  min-width: 81vw;
+  min-height: 100vh;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .SearchUserPage {
+    width: 100vw;
+  }
+}
+body .MainSection .SearchUserPage .headUserInfo {
+  width: 80vw;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 60px;
+  background-color: hsla(213deg, 89%, 48%, 0.5);
+  z-index: 10;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .SearchUserPage .headUserInfo {
+    width: 100vw !important;
+  }
+  body .MainSection .SearchUserPage .headUserInfo ul {
+    display: none !important;
+  }
+}
+body .MainSection .SearchUserPage .headUserInfo ul {
+  margin-inline: 30px;
+  display: flex;
+  align-items: center;
+}
+body .MainSection .SearchUserPage .headUserInfo ul button {
+  cursor: pointer;
+  height: 30px;
+  width: 95px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 15px;
+  margin-inline: 10px;
+}
+body .MainSection .SearchUserPage .headUserInfo ul #SubBtn {
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  transition: transform 0.35s linear;
+}
+body .MainSection .SearchUserPage .headUserInfo ul #SubBtn:hover {
+  background-color: black;
+  transform: scale(1.1);
+}
+body .MainSection .SearchUserPage .headUserInfo ul #UserAccount {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  width: 140px;
+  background-color: black;
+  border: none;
+  transition: 0.35s linear;
+}
+@media screen and (max-width: 768px) {
+  body .MainSection .SearchUserPage .headUserInfo ul #UserAccount {
+    display: none;
+  }
+}
+body .MainSection .SearchUserPage .headUserInfo ul #UserAccount:hover {
+  background-color: #727272;
+}
+body .MainSection .SearchUserPage .headUserInfo ul #UserAccount .userIcon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 40px;
+  background-color: #727272;
+  border-radius: 50%;
+  margin-left: 1px;
+}
+body .MainSection .SearchUserPage .headUserInfo ul #UserAccount .userIcon svg {
+  fill: white;
+}
+body .MainSection .SearchUserPage .headUserInfo ul #UserAccount .Data {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .MainSection .SearchUserPage .headUserInfo ul #UserAccount .Data #UserName {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+body .MainSection .SearchUserPage .headUserInfo ul #UserAccount .Data Svg {
+  fill: white;
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo {
+  display: flex;
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo .btn {
+  margin-left: 10px;
+}
+@media screen and (max-width: 1029px) {
+  body .MainSection .SearchUserPage .headUserInfo .leftSideInfo .btn {
+    display: none;
+  }
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo .btn button {
+  margin-inline: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo .btn button .Svg-sc {
+  fill: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo #SearchBar {
+  height: 45px;
+  width: 400px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  text-indent: 50px;
+  font-size: 15px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+}
+@media screen and (min-width: 601px) and (max-width: 1029px) {
+  body .MainSection .SearchUserPage .headUserInfo .leftSideInfo #SearchBar {
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .SearchUserPage .headUserInfo .leftSideInfo #SearchBar {
+    width: 92vw;
+    margin-left: 0%;
+    border-radius: 5px;
+  }
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo ::-moz-placeholder {
+  font-size: 15px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo :-ms-input-placeholder {
+  font-size: 15px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo ::placeholder {
+  font-size: 15px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+}
+body .MainSection .SearchUserPage .headUserInfo .leftSideInfo .ImageSearch {
+  height: 30px;
+  width: auto;
+  z-index: 2;
+  position: relative;
+  top: 5px;
+  left: -69%;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .SearchUserPage .headUserInfo .leftSideInfo .ImageSearch {
+    left: -10%;
+  }
+}
+body .MainSection .SearchUserPage .UserDataTypes {
+  margin-top: 120px;
+}
+body .MainSection .SearchUserPage .UserDataTypes a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  font-weight: 700;
+}
+@media screen and (min-width: 601px) and (max-width: 786px) {
+  body .MainSection .SearchUserPage .UserDataTypes a {
+    margin-left: 60px;
+  }
+}
+body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider {
+  margin-left: -25px;
+  margin-top: 30px;
+  display: flex;
+}
+@media screen and (min-width: 601px) and (max-width: 1340px) {
+  body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider {
+    overflow-x: scroll;
+  }
+}
+body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider .fav-card {
+  margin-inline: 10px;
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s linear;
+}
+body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider .fav-card img {
+  height: 250px;
+  width: auto;
+  box-shadow: 0 10px 10px #242424;
+  border-radius: 2%;
+  transition: 0.35s ease;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider .fav-card img {
+    height: 120px;
+    width: auto;
+  }
+}
+body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider .fav-card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: transparent;
+}
+body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider .fav-card p {
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider .fav-card:hover img {
+  opacity: 0.5;
+  transform: translateY(-10px);
+}
+body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider .fav-card:hover .overlay, body .MainSection .SearchUserPage .UserDataTypes #UserTypes #Slider .fav-card:hover p {
+  opacity: 1;
+}
+body .MainSection .SearchUserPage .UserDataTypes #AllTypes {
+  margin-top: 50px;
+}
+body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+}
+body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card {
+  position: relative;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card:focus .overlay, body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card:focus p {
+    opacity: 1;
+  }
+}
+body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card img {
+  height: 190px;
+  width: auto;
+  box-shadow: 0 10px 10px #242424;
+  border-radius: 2%;
+  transition: 0.35s ease;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card img {
+    height: 100px;
+    width: auto;
+  }
+}
+body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: transparent;
+}
+body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card p {
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card:hover img {
+  opacity: 0.5;
+  transform: translateY(-10px);
+}
+body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card:hover .overlay, body .MainSection .SearchUserPage .UserDataTypes #AllTypes ul .type-card:hover p {
+  opacity: 1;
+}
+@media screen and (min-width: 601px) and (max-width: 786px) {
+  body .MainSection .SearchUserPage .UserDataTypes #AllTypes {
+    text-align: center;
+    margin-left: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+@import './variables';
+@import '../../Home/scss/function';
+
+
+//functions
+
+
+//mixins
+
+@mixin MakeDownloadBtn() {
+  height: 50px;
+  width: 250px;
+  background-color: #1ed760;
+  border-radius: 25px;
+  border: none;
+}

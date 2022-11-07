@@ -1,0 +1,63 @@
+@import './variables';
+
+//functions
+
+
+//mixins
+@mixin sizing() {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin StyleSpanNav() {
+  margin-left: 15px;
+  font-family: $FontStyle;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+@mixin MakeBtn() {
+  cursor: pointer;
+  height: 30px;
+  width: 95px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius:15px;
+}
+
+@mixin StyleArrowBtn() {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+@mixin MakeCard() {
+  height: 280px;
+  width: 160px;
+  background-color: #181818;
+  border-radius: 7.5px;
+}
+
+@mixin MakeCardMobile() {
+  height: 230px !important;
+  width: 200px !important;
+}
+
+@mixin StyleBtnPlay() {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #1ed760;
+  border: none;
+}

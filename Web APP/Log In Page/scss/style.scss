@@ -1,0 +1,72 @@
+@import './functions';
+
+//code section
+
+body{
+ @include Sizing();
+ width: 100%;
+ .Logo{
+  text-align: center;
+  margin-block: -50px;
+  svg{
+   height: 200px;
+   width: 200px;
+  }
+ }
+ .line{
+  @include MakeLine();
+ }
+ .registrationForm{
+  @include center();
+  width: 100%;
+   .format{
+     height: 100vh;
+    margin-top: 50px;
+   font-family: $FontStyle;
+   p{
+    text-align: center;
+    font-weight: 700;
+   }
+   #Warning{
+    display: none;
+    color: red;
+   }
+   label{
+    font-weight: 700;
+    font-size: 14px;
+    color: black
+   }
+   #inputEmail,#inputPassword{
+    @media screen and (max-width:600px) {
+      @include MakeInputMobile();
+      
+    }
+    @include MakeInput();
+    text-indent: 20px;
+    font-family: $FontStyle;
+    font-size: 16px;
+    &:focus{
+     border: 2px solid black;
+     border-radius: 2px;
+    }
+   }
+   ::placeholder{
+    font-size: 16px;
+   }
+   .formatBtn{
+    margin-top: 30px;
+     text-align: center;
+     button{
+      @include btnStyle();
+      a{
+       text-decoration: none;
+       font-family: $FontStyle;
+       color: black;
+       font-weight: 700;
+       font-size: 20px;
+      }
+     }
+   }
+  }
+  }
+ }

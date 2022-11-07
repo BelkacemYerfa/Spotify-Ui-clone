@@ -1,0 +1,57 @@
+@import '../../Home/scss/function';
+@import './variables';
+
+//functions
+
+//mixins
+
+@mixin SpecialBtnSeries() {
+ height: 40px;
+ width: 100px;
+ background-color: transparent; 
+ border: none;
+ border-radius: 5px;
+}
+
+@mixin MakeLikedTitles() {
+ height:300px;
+ width: 450px;
+ background-image:linear-gradient(135deg , hsla(256, 89%, 48%, 0.75)  , white);
+ border-radius: 7.5px;
+}
+
+@mixin MakeCardPlaylist() {
+ height: 280px;
+ width: 190px;
+ background-color: #242424b9;
+ border-radius: 7.5px;
+ transition: background-color .35s linear;
+ &:hover{
+   background-color: hsl(0, 0%, 65% , .2);
+ }
+}
+
+@mixin MiniCard() {
+ height: 190px;
+ width: 190px;
+ background-color:  rgba(128, 128, 128, 0.7);
+ box-shadow: 0 10px 10px rgb(17, 17, 17);
+ border-radius: 5px;
+}
+
+@mixin MakeBtnPlay() {
+ height: 60px;
+ width: 60px;
+ background-color: #1ed760;
+ border-radius: 50%;
+}
+
+@mixin MakeCardPlaylistMobile() {
+ height: 250px;
+ width: 90%;
+}
+
+@mixin MakeCardPlayMobile() {
+  height: 100px;
+  width: 80%;
+}

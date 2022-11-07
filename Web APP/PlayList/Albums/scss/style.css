@@ -1,0 +1,550 @@
+/*
+  icons : 
+  Spotify Icon : <svg viewBox="0 0 1134 340" class="spotify-logo--text"><title>Spotify</title><path fill="currentColor" d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"></path></svg>
+   //
+  1-home : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl home-icon" viewBox="0 0 24 24"><path d="M12.5 3.247a1 1 0 00-1 0L4 7.577V20h4.5v-6a1 1 0 011-1h5a1 1 0 011 1v6H20V7.577l-7.5-4.33zm-2-1.732a3 3 0 013 0l7.5 4.33a2 2 0 011 1.732V21a1 1 0 01-1 1h-6.5a1 1 0 01-1-1v-6h-3v6a1 1 0 01-1 1H3a1 1 0 01-1-1V7.577a2 2 0 011-1.732l7.5-4.33z"></path></svg>
+  2-search: <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl search-icon" viewBox="0 0 24 24"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+  3-biobl : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl collection-active-icon" viewBox="0 0 24 24"><path d="M3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zM15.5 2.134A1 1 0 0014 3v18a1 1 0 001 1h6a1 1 0 001-1V6.464a1 1 0 00-.5-.866l-6-3.464zM9 2a1 1 0 00-1 1v18a1 1 0 102 0V3a1 1 0 00-1-1z"></path></svg>
+   //
+  userSvgAccount : 
+  arrowUp : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 10L8 4l-6 6h12z"></path></svg>
+  arrowdown : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 6l-6 6-6-6h12z"></path></svg> 
+
+   arrowleff : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M15.957 2.793a1 1 0 010 1.414L8.164 12l7.793 7.793a1 1 0 11-1.414 1.414L5.336 12l9.207-9.207a1 1 0 011.414 0z"></path></svg>
+   arrowright:<svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z"></path></svg>
+    */
+:root {
+  --background-base: #121212;
+  --background-highlight: #1a1a1a;
+  --background-press: #000;
+  --background-elevated-base: #242424;
+  --background-elevated-highlight: #2a2a2a;
+  --background-elevated-press: #000;
+  --background-tinted-base: hsla(0,0%,100%,.07);
+  --background-tinted-highlight: hsla(0,0%,100%,.1);
+  --background-tinted-press: hsla(0,0%,100%,.04);
+  --background-unsafe-for-small-text-base: #121212;
+  --background-unsafe-for-small-text-highlight: #121212;
+  --background-unsafe-for-small-text-press: #121212;
+  --text-base: #fff;
+  --text-subdued: #a7a7a7;
+  --text-bright-accent: #1ed760;
+  --text-negative: #f15e6c;
+  --text-warning: #ffa42b;
+  --text-positive: #1ed760;
+  --text-announcement: #3d91f4;
+  --essential-base: #fff;
+  --essential-subdued: #727272;
+  --essential-bright-accent: #1ed760;
+  --essential-negative: #e91429;
+  --essential-warning: #ffa42b;
+  --essential-positive: #1ed760;
+  --essential-announcement: #0d72ea;
+  --decorative-base: #fff;
+  --decorative-subdued: #292929;
+}
+
+/*
+ <svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><title>Show</title><path d="M319.261 652.453q23.15 27.685 55.388 48.318l-27.685 32.22q-34.233-22.651-59.907-52.853-52.355-60.926-66.459-138.693t12.086-152.28 87.092-126.364q11.587-10.069 27.187-20.137l27.685 32.22q-16.122 10.584-27.187 20.137-52.355 44.804-74.759 108.476t-10.321 130.147 56.89 118.808zM865.98 185.789q60.422 70.994 88.843 158.315t20.904 179.986q-5.034 61.924-25.172 119.312t-54.621 107.725-81.809 90.629q-11.587 9.565-26.688 20.652l-27.685-32.22q15.103-10.584 27.187-20.652 63.923-55.388 101.944-129.632t44.804-158.83-19.119-164.116-80.812-143.979q-31.722-36.756-74.003-67.456l27.685-32.22q44.804 32.719 78.522 72.489zM190.382 762.714q31.722 36.756 74.003 67.456l-27.685 32.22q-44.3-32.719-78.522-72.489-60.422-70.994-88.843-158.315t-21.156-180.238 49.072-174.689 112.758-142.711q11.587-9.565 26.688-20.652l27.685 32.22q-15.103 10.584-27.187 20.652-64.942 55.892-102.691 132.145t-44.037 156.317 18.867 161.351 81.062 146.748zM512.061 360.97q52.355 0 89.61 37.254t37.254 89.61q0 46.823-30.206 82.058t-75.525 42.786v298.026h-42.288v-298.026q-29.702-5.034-53.854-22.651t-38.001-44.552-13.832-57.638q0-52.355 37.254-89.61t89.61-37.254zM512.061 572.408q35.241 0 59.907-24.92t24.668-59.655-24.92-59.655-59.655-24.92-59.655 24.92-24.92 59.655q0 23.15 11.338 42.537t30.721 30.721 42.537 11.338zM737.104 295.533q52.355 60.926 66.459 138.693t-12.086 152.28-87.092 126.364q-11.587 10.069-27.187 20.652l-27.685-32.719q16.122-10.584 27.187-20.137 52.355-44.3 74.759-108.224t10.321-130.399-56.89-118.808q-23.15-27.685-55.388-48.318l27.685-32.22q33.718 22.651 59.907 52.853z" fill="currentColor" fill-rule="evenodd"></path></svg>
+*/
+/*
+<svg role="img" height="64" width="64" viewBox="0 0 24 24" class="Svg-sc-1bi12j5-0 EQkJl"><path d="M13.363 10.474l-.521.625a2.499 2.499 0 00.67 3.766l.285.164a5.998 5.998 0 011.288-1.565l-.573-.33a.5.5 0 01-.134-.754l.52-.624a7.372 7.372 0 001.837-4.355 7.221 7.221 0 00-.29-2.489 5.644 5.644 0 00-3.116-3.424A5.771 5.771 0 006.753 2.87a5.7 5.7 0 00-1.19 2.047 7.22 7.22 0 00-.29 2.49 7.373 7.373 0 001.838 4.355l.518.622a.5.5 0 01-.134.753L3.5 15.444a5 5 0 00-2.5 4.33v2.231h13.54a5.981 5.981 0 01-1.19-2H3v-.23a3 3 0 011.5-2.6l3.995-2.308a2.5 2.5 0 00.67-3.766l-.521-.625a5.146 5.146 0 01-1.188-4.918 3.71 3.71 0 01.769-1.334 3.769 3.769 0 015.556 0c.346.386.608.84.768 1.334.157.562.22 1.146.187 1.728a5.379 5.379 0 01-1.373 3.188zm7.641-1.173a1 1 0 00-1 1v4.666h-1a3 3 0 103 3v-7.666a.999.999 0 00-1.003-1h.003zm-1 8.666a1 1 0 11-1-1h1v1z"></path></svg>
+*/
+/*
+<svg width="52" height="52" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg"><title>Album</title><path d="M26 0.00100708C11.641 0.00100708 0 11.642 0 26.001C0 40.36 11.641 52.001 26 52.001C40.36 52 52 40.36 52 26C52 11.64 40.36 0.00100708 26 0.00100708ZM26 50C12.767 50 2 39.234 2 26C2 12.766 12.767 2.00001 26 2.00001C39.234 2.00001 50 12.766 50 26C50 39.234 39.234 50 26 50ZM26 18C21.582 18 18 21.582 18 26C18 30.418 21.582 34 26 34C30.418 34 34 30.418 34 26C34 21.582 30.419 18 26 18ZM26 32C22.692 32 20 29.309 20 26C20 22.691 22.692 20 26 20C29.308 20 32 22.691 32 26C32 29.309 29.309 32 26 32Z" fill="currentColor" fill-rule="evenodd"></path></svg>
+*/
+/*
+  icons : 
+  Spotify Icon : <svg viewBox="0 0 1134 340" class="spotify-logo--text"><title>Spotify</title><path fill="currentColor" d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"></path></svg>
+   //
+  1-home : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl home-icon" viewBox="0 0 24 24"><path d="M12.5 3.247a1 1 0 00-1 0L4 7.577V20h4.5v-6a1 1 0 011-1h5a1 1 0 011 1v6H20V7.577l-7.5-4.33zm-2-1.732a3 3 0 013 0l7.5 4.33a2 2 0 011 1.732V21a1 1 0 01-1 1h-6.5a1 1 0 01-1-1v-6h-3v6a1 1 0 01-1 1H3a1 1 0 01-1-1V7.577a2 2 0 011-1.732l7.5-4.33z"></path></svg>
+  2-search: <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl search-icon" viewBox="0 0 24 24"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+  3-biobl : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl collection-active-icon" viewBox="0 0 24 24"><path d="M3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zM15.5 2.134A1 1 0 0014 3v18a1 1 0 001 1h6a1 1 0 001-1V6.464a1 1 0 00-.5-.866l-6-3.464zM9 2a1 1 0 00-1 1v18a1 1 0 102 0V3a1 1 0 00-1-1z"></path></svg>
+   //
+  userSvgAccount : 
+  arrowUp : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 10L8 4l-6 6h12z"></path></svg>
+  arrowdown : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 6l-6 6-6-6h12z"></path></svg> 
+
+   arrowleff : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M15.957 2.793a1 1 0 010 1.414L8.164 12l7.793 7.793a1 1 0 11-1.414 1.414L5.336 12l9.207-9.207a1 1 0 011.414 0z"></path></svg>
+   arrowright:<svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z"></path></svg>
+    */
+:root {
+  --background-base: #121212;
+  --background-highlight: #1a1a1a;
+  --background-press: #000;
+  --background-elevated-base: #242424;
+  --background-elevated-highlight: #2a2a2a;
+  --background-elevated-press: #000;
+  --background-tinted-base: hsla(0,0%,100%,.07);
+  --background-tinted-highlight: hsla(0,0%,100%,.1);
+  --background-tinted-press: hsla(0,0%,100%,.04);
+  --background-unsafe-for-small-text-base: #121212;
+  --background-unsafe-for-small-text-highlight: #121212;
+  --background-unsafe-for-small-text-press: #121212;
+  --text-base: #fff;
+  --text-subdued: #a7a7a7;
+  --text-bright-accent: #1ed760;
+  --text-negative: #f15e6c;
+  --text-warning: #ffa42b;
+  --text-positive: #1ed760;
+  --text-announcement: #3d91f4;
+  --essential-base: #fff;
+  --essential-subdued: #727272;
+  --essential-bright-accent: #1ed760;
+  --essential-negative: #e91429;
+  --essential-warning: #ffa42b;
+  --essential-positive: #1ed760;
+  --essential-announcement: #0d72ea;
+  --decorative-base: #fff;
+  --decorative-subdued: #292929;
+}
+
+/*
+  icons : 
+  Spotify Icon : <svg viewBox="0 0 1134 340" class="spotify-logo--text"><title>Spotify</title><path fill="currentColor" d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"></path></svg>
+   //
+  1-home : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl home-icon" viewBox="0 0 24 24"><path d="M12.5 3.247a1 1 0 00-1 0L4 7.577V20h4.5v-6a1 1 0 011-1h5a1 1 0 011 1v6H20V7.577l-7.5-4.33zm-2-1.732a3 3 0 013 0l7.5 4.33a2 2 0 011 1.732V21a1 1 0 01-1 1h-6.5a1 1 0 01-1-1v-6h-3v6a1 1 0 01-1 1H3a1 1 0 01-1-1V7.577a2 2 0 011-1.732l7.5-4.33z"></path></svg>
+  2-search: <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl search-icon" viewBox="0 0 24 24"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+  3-biobl : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 EQkJl collection-active-icon" viewBox="0 0 24 24"><path d="M3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zM15.5 2.134A1 1 0 0014 3v18a1 1 0 001 1h6a1 1 0 001-1V6.464a1 1 0 00-.5-.866l-6-3.464zM9 2a1 1 0 00-1 1v18a1 1 0 102 0V3a1 1 0 00-1-1z"></path></svg>
+   //
+  userSvgAccount : 
+  arrowUp : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 10L8 4l-6 6h12z"></path></svg>
+  arrowdown : <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 EQkJl eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16"><path d="M14 6l-6 6-6-6h12z"></path></svg> 
+
+   arrowleff : <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M15.957 2.793a1 1 0 010 1.414L8.164 12l7.793 7.793a1 1 0 11-1.414 1.414L5.336 12l9.207-9.207a1 1 0 011.414 0z"></path></svg>
+   arrowright:<svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 eENWnB IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24"><path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z"></path></svg>
+    */
+:root {
+  --background-base: #121212;
+  --background-highlight: #1a1a1a;
+  --background-press: #000;
+  --background-elevated-base: #242424;
+  --background-elevated-highlight: #2a2a2a;
+  --background-elevated-press: #000;
+  --background-tinted-base: hsla(0,0%,100%,.07);
+  --background-tinted-highlight: hsla(0,0%,100%,.1);
+  --background-tinted-press: hsla(0,0%,100%,.04);
+  --background-unsafe-for-small-text-base: #121212;
+  --background-unsafe-for-small-text-highlight: #121212;
+  --background-unsafe-for-small-text-press: #121212;
+  --text-base: #fff;
+  --text-subdued: #a7a7a7;
+  --text-bright-accent: #1ed760;
+  --text-negative: #f15e6c;
+  --text-warning: #ffa42b;
+  --text-positive: #1ed760;
+  --text-announcement: #3d91f4;
+  --essential-base: #fff;
+  --essential-subdued: #727272;
+  --essential-bright-accent: #1ed760;
+  --essential-negative: #e91429;
+  --essential-warning: #ffa42b;
+  --essential-positive: #1ed760;
+  --essential-announcement: #0d72ea;
+  --decorative-base: #fff;
+  --decorative-subdued: #292929;
+}
+
+html ::-webkit-scrollbar {
+  width: 14px;
+  background: #242424;
+  -webkit-transition: 0.35s linear;
+  transition: 0.35s linear;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #a7a7a7;
+}
+html ::-webkit-scrollbar-thumb:hover {
+  background: #727272;
+}
+@media screen and (max-width: 600px) {
+  html ::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+body button {
+  cursor: pointer;
+}
+body .MainSection #ulForMobileScreen {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection {
+    width: 100%;
+  }
+  body .MainSection #ulForMobileScreen {
+    min-width: 100%;
+    display: block;
+    background-image: linear-gradient(360deg, black, transparent);
+    position: fixed;
+    bottom: -10px;
+    left: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  body .MainSection #ulForMobileScreen li {
+    list-style: none;
+    margin-inline: 10px;
+  }
+  body .MainSection #ulForMobileScreen li a {
+    margin-inline: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  body .MainSection #ulForMobileScreen li a .Svg-sc-active {
+    display: none;
+  }
+  body .MainSection #ulForMobileScreen li a .Svg-sc, body .MainSection #ulForMobileScreen li a .Svg-sc-active {
+    margin-left: 15%;
+    fill: white;
+  }
+  body .MainSection #ulForMobileScreen li a span {
+    color: white;
+    font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+    font-size: 15px;
+    margin-block: 15px;
+    text-align: center;
+  }
+  body .MainSection #ulForMobileScreen li a:focus {
+    opacity: 1;
+  }
+  body .MainSection #ulForMobileScreen li a:focus .Svg-sc {
+    display: none;
+  }
+  body .MainSection #ulForMobileScreen li a:focus .Svg-sc-active {
+    display: block;
+  }
+}
+body .MainSection .forMobile {
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  body .MainSection .forMobile .navbar {
+    margin-left: -2000px;
+  }
+}
+body .MainSection .forMobile .navbar {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  padding: 30px 20px;
+  min-width: 15vw;
+  min-height: 100%;
+  float: left;
+  border-right: white;
+}
+body .MainSection .forMobile .navbar .spotify-logo {
+  height: 40px;
+  width: auto;
+  fill: white;
+  margin-bottom: 30px;
+}
+body .MainSection .forMobile .navbar ul {
+  margin-left: -40px;
+}
+body .MainSection .forMobile .navbar ul li {
+  list-style: none;
+  margin-block: 15px;
+}
+body .MainSection .forMobile .navbar ul li a {
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+  transition: 0.35s;
+}
+body .MainSection .forMobile .navbar ul li a Svg {
+  fill: white;
+}
+body .MainSection .forMobile .navbar ul li a .Svg-sc-active {
+  display: none;
+}
+body .MainSection .forMobile .navbar ul li a span {
+  margin-left: 15px;
+}
+body .MainSection .forMobile .navbar ul li a:hover {
+  opacity: 1;
+}
+body .MainSection .forMobile .navbar ul li a:focus {
+  opacity: 1;
+}
+body .MainSection .forMobile .navbar ul li a:focus .Svg-sc {
+  display: none;
+}
+body .MainSection .forMobile .navbar ul li a:focus .Svg-sc-active {
+  display: block;
+}
+body .MainSection .forMobile .Ply, body .MainSection .forMobile .Liked-titles {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.35s;
+}
+body .MainSection .forMobile .Ply .add, body .MainSection .forMobile .Liked-titles .add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: hsla(0deg, 0%, 100%, 0.75);
+  border-radius: 2.5px;
+}
+body .MainSection .forMobile .Ply .add svg, body .MainSection .forMobile .Liked-titles .add svg {
+  fill: #242424;
+  opacity: 1;
+}
+body .MainSection .forMobile .Ply span, body .MainSection .forMobile .Liked-titles span {
+  margin-left: 15px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+body .MainSection .forMobile .Ply:hover, body .MainSection .forMobile .Liked-titles:hover, body .MainSection .forMobile .Ply:focus, body .MainSection .forMobile .Liked-titles:focus {
+  opacity: 1;
+}
+body .MainSection .forMobile .Ply:hover .add, body .MainSection .forMobile .Liked-titles:hover .add, body .MainSection .forMobile .Ply:focus .add, body .MainSection .forMobile .Liked-titles:focus .add {
+  background-color: white;
+}
+body .MainSection .forMobile .Liked-titles {
+  margin-top: 15px;
+}
+body .MainSection .forMobile .Liked-titles .like {
+  background-image: linear-gradient(45deg, #3d91f4, white 20%, #0d72ea);
+}
+body .MainSection .forMobile .Liked-titles .like svg {
+  fill: white;
+}
+body .MainSection .forMobile .Liked-titles .like:hover, body .MainSection .forMobile .Liked-titles .like:focus {
+  opacity: 1;
+}
+body .MainSection .forMobile .Liked-titles .like:hover .add, body .MainSection .forMobile .Liked-titles .like:focus .add {
+  background-color: white;
+}
+body .MainSection .forMobile .install {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  transition: opacity 0.35s linear;
+}
+body .MainSection .forMobile .install svg, body .MainSection .forMobile .install span {
+  cursor: pointer;
+}
+body .MainSection .forMobile .install svg {
+  fill: white;
+}
+body .MainSection .forMobile .install span {
+  margin-left: 15px;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+body .MainSection .forMobile .install:hover, body .MainSection .forMobile .install:focus {
+  opacity: 1;
+}
+body .MainSection .UserPage {
+  height: 100vh;
+  width: 80vw;
+  float: right;
+  background-image: linear-gradient(180deg, rgba(61, 146, 244, 0.1725490196) 1px, #242424);
+  min-width: 81vw;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .UserPage {
+    width: 100vw;
+    min-height: 100vh !important;
+  }
+}
+body .MainSection .UserPage .headCenter {
+  width: 80vw;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 60px;
+  background-color: hsla(212deg, 89%, 60%, 0.25);
+  z-index: 10;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .UserPage .headCenter {
+    width: 100vw !important;
+  }
+  body .MainSection .UserPage .headCenter ul {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body .MainSection .UserPage .headCenter {
+    background: none !important;
+    margin-inline: 6.5%;
+  }
+}
+body .MainSection .UserPage .headCenter ul {
+  margin-inline: 30px;
+  display: flex;
+  align-items: center;
+}
+body .MainSection .UserPage .headCenter ul button {
+  cursor: pointer;
+  height: 30px;
+  width: 95px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 15px;
+  margin-inline: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body .MainSection .UserPage .headCenter ul button {
+    margin-inline: 5px !important;
+  }
+}
+body .MainSection .UserPage .headCenter ul #UserAccount {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  width: 140px;
+  background-color: black;
+  border: none;
+  transition: 0.35s linear;
+}
+body .MainSection .UserPage .headCenter ul #UserAccount:hover {
+  background-color: #727272;
+}
+body .MainSection .UserPage .headCenter ul #UserAccount .userIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 40px;
+  background-color: #727272;
+  border-radius: 50%;
+  margin-left: 1px;
+}
+body .MainSection .UserPage .headCenter ul #UserAccount .userIcon svg {
+  fill: white;
+}
+body .MainSection .UserPage .headCenter ul #UserAccount .Data {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .MainSection .UserPage .headCenter ul #UserAccount .Data #UserName {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+body .MainSection .UserPage .headCenter ul #UserAccount .Data Svg {
+  fill: white;
+}
+body .MainSection .UserPage .headCenter .btn {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+@media screen and (max-width: 600px) {
+  body .MainSection .UserPage .headCenter .btn {
+    display: none;
+  }
+}
+body .MainSection .UserPage .headCenter .btn .SpecialBtn {
+  margin-inline: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+body .MainSection .UserPage .headCenter .btn .SpecialBtn .Svg-sc {
+  fill: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .MainSection .UserPage .headCenter .btn ul {
+  margin-left: -20px;
+}
+body .MainSection .UserPage .headCenter .btn ul button {
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.35s linear;
+}
+body .MainSection .UserPage .headCenter .btn ul button a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+body .MainSection .UserPage .headCenter .btn ul button:focus {
+  background-color: hsla(0deg, 0%, 65%, 0.5);
+}
+body .MainSection .UserPage .headCenter .btn ul #btn1 {
+  background-color: hsla(0deg, 0%, 65%, 0.5);
+}
+body .MainSection .UserPage .Artists-container {
+  margin-top: 150px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body .MainSection .UserPage .Artists-container {
+    margin-inline: 10%;
+  }
+}
+body .MainSection .UserPage .Artists-container .SubToArtist {
+  text-align: center;
+  color: white;
+  font-family: spotify-circular, spotify-circular-cyrillic, spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+}
+body .MainSection .UserPage .Artists-container .SubToArtist svg {
+  fill: white;
+}
+body .MainSection .UserPage .Artists-container .SubToArtist h1 {
+  font-size: 32px;
+}
+body .MainSection .UserPage .Artists-container .SubToArtist p {
+  font-size: 18px;
+}
+body .MainSection .UserPage .Artists-container .SubToArtist button {
+  height: 50px;
+  width: 250px;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  transition: transform 0.35s linear;
+  font-size: 18px;
+  font-weight: 700;
+}
+body .MainSection .UserPage .Artists-container .SubToArtist button:hover {
+  transform: scale(1.05);
+}
+body .MainSection .UserPage .Artists-container .SubToArtist button a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
