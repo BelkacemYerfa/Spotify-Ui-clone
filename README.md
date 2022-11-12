@@ -1,4 +1,4 @@
-# Spotify-Ui-Clone
+# Spotify-Ui-Clone build using the css pre processer Scss
 # Build a spotify Ui Clone
 # Adding responsiveness for all devices
 # Technologies Used :
